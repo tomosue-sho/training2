@@ -273,3 +273,56 @@ h3{
     height: 368px;
     margin-top: 40px;
 }
+#contact{
+    margin: 80px auto 80px auto;
+}
+#contact > form > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.contact-heading{
+    width: 240px;
+    align-self: center;
+}
+.contact-label{
+    font-weight: bold;
+}
+.contact-span{
+    color:#ce2222;
+    margin:0 0 0 20px;
+    font-weight: bold;
+}
+.contact-textbox{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 56px;
+}
+.contact-textarea{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 200px;
+}
+details{
+    width: 700px;
+}
+details > div{
+    background-color: #fafafa;
+    padding: 20px;
+}
+details > div > span{
+    font-weight: bold;
+}
