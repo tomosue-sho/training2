@@ -252,7 +252,12 @@
                <section id="contact">
                 <h2 class="index-h2">CONTACT</h2>
                 <h3>お問い合わせ</h3>
-                <form>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="23821af6-0089-4225-97b9-9456717c6b7b">
+                    <input type="hidden" name="subject" value="お問い合わせフォーム" />
+                    <input type="hidden" name="replyTo" value="tomotomosho1006@gmail.com">
+                    <input type="hidden" name="redirectTo" value="">                            
                     <div>
                         <div class="contact-heading">
                             <label class="contact-label">お名前<span class="contact-span">必須</span></label>
